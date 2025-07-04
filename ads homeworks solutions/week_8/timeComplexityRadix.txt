@@ -1,0 +1,15 @@
+the time complexity of the radix sort algorithm depends on 2 arguments,
+the number n of elements in the array, and the number d of digits in the
+max element of that array, and since we go through each digit from 1 to d
+of all the number of the array the time complexity of the msd radix sort is
+Ö(n*d)
+
+the second part is used with chat gpt : 
+
+for the space complexity :
+Since elements are only moved, not duplicated, we don’t use n × d space
+The space usage is not additive across recursive calls,
+and for each number a digit can take which is 10 we allocate a bucket
+because elements are partitioned the space complexity is:
+Ö(n + d * 10)
+

@@ -1,0 +1,33 @@
+average case: 
+k = 0 Time: 2.319 ms
+k = 1000 Time: 0.2198 ms
+k = 2000 Time: 0.1718 ms
+k = 3000 Time: 0.1328 ms
+k = 4000 Time: 0.3173 ms
+k = 5000 Time: 0.1898 ms
+k = 6000 Time: 0.2064 ms
+k = 7000 Time: 0.1899 ms
+k = 8000 Time: 0.1903 ms
+k = 9000 Time: 0.2235 ms
+Worst case: 
+k = 0 Time: 2.1339 ms
+k = 1000 Time: 0.2934 ms
+k = 2000 Time: 0.1796 ms
+k = 3000 Time: 0.1554 ms
+k = 4000 Time: 0.195 ms
+k = 5000 Time: 0.0898 ms
+k = 6000 Time: 0.0825 ms
+k = 7000 Time: 0.1357 ms
+k = 8000 Time: 0.0789 ms
+k = 9000 Time: 0.0766 ms
+Best case: 
+k = 0 Time: 1.7858 ms
+k = 1000 Time: 0.2356 ms
+k = 2000 Time: 0.2216 ms
+k = 3000 Time: 0.1515 ms
+k = 4000 Time: 0.1354 ms
+k = 5000 Time: 0.0835 ms
+k = 6000 Time: 0.0765 ms
+k = 7000 Time: 0.0766 ms
+k = 8000 Time: 0.0771 ms
+k = 9000 Time: 0.081 ms

@@ -1,0 +1,5 @@
+Yes, for all 4 methods all the functions will return the same fibonacci number
+althought the aproach is differant, but the reasoning behind is roughly the same,
+aside from the golden number's one which was just prouven to be given similar values
+if not a lot of data is lost in the process. The rest all follow the same process of 
+F(n) = F(n-1) + F(n-2)

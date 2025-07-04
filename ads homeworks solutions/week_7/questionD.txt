@@ -1,0 +1,10 @@
+Total time taken by QuickSort1: 75037 microseconds
+Total time taken by QuickSort2: 68421 microseconds
+Total time taken by QuickSort3: 59514 microseconds
+
+
+After looking at the result of the 3 quicksort alogorithms
+we can see that on average for random 100000 arrays of 1000 elements
+the Hoarpartition partition is more effective and faster
+performing than the lomoto partition, and
+the median of 3 being the fastest, because it chose an optimal pivot

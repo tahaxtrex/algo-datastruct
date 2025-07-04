@@ -1,0 +1,17 @@
+the worst time complexity of the bucket sort algorithm is all 
+depeinding on the time complexity of the sorting algorithm used
+to sort each bucket, as each algorithm differs.
+
+the forrmula for the time complexity of the bucket sort is:
+T(n) = O'(n) + the sum going from 0 to the number of buckets of the worst
+time complexity of the sorting algorithm used to sort the buckets
+
+in the case of insertion sort : O(n²)
+if quick sort for instance : O(n log n)
+
+an Exemple of that would be if the numbers given to sort are not
+nicely spread on the buckets, but instead all put in the same bucket
+making it more depending on the sorting algorithm for the bucket :
+since all the other buckets are empty we only focus on the one that
+contains the elements of the array to sort, and since it's the worst case
+this would be done in O(n²) in the exemple of insertion sort

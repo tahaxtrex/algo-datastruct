@@ -1,0 +1,19 @@
+array[n]
+n = len (array)
+k = max(array)
+count[0]*k
+aux[0]*k
+
+for i in array
+    count[i]+=1
+
+for i in count
+    aux[i] += count[i]
+
+
+if a!=0
+    numberOfElements = count[b] - count[a-1]
+else 
+    numberOfElements = count[b]
+
+
